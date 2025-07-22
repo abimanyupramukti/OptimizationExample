@@ -47,7 +47,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		40D0EB172E2E81D300D87F2D /* Exceptions for "OptimizationExample" folder in "OptimizationExample" target */ = {
+		40FBAFA32E2FB24600C03EBA /* Exceptions for "OptimizationExample" folder in "OptimizationExample" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -57,14 +57,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		40D0EAF12E2E81D100D87F2D /* OptimizationExample */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				40D0EB172E2E81D300D87F2D /* Exceptions for "OptimizationExample" folder in "OptimizationExample" target */,
-			);
-			path = OptimizationExample;
-			sourceTree = "<group>";
-		};
 		40D0EB082E2E81D300D87F2D /* OptimizationExampleTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = OptimizationExampleTests;
@@ -78,6 +70,14 @@
 		40D0EB492E2E87DA00D87F2D /* Packages */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Packages;
+			sourceTree = "<group>";
+		};
+		40FBAF962E2FAF1000C03EBA /* OptimizationExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				40FBAFA32E2FB24600C03EBA /* Exceptions for "OptimizationExample" folder in "OptimizationExample" target */,
+			);
+			path = OptimizationExample;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -111,8 +111,8 @@
 		40D0EAE62E2E81D100D87F2D = {
 			isa = PBXGroup;
 			children = (
+				40FBAF962E2FAF1000C03EBA /* OptimizationExample */,
 				40D0EB492E2E87DA00D87F2D /* Packages */,
-				40D0EAF12E2E81D100D87F2D /* OptimizationExample */,
 				40D0EB082E2E81D300D87F2D /* OptimizationExampleTests */,
 				40D0EB122E2E81D300D87F2D /* OptimizationExampleUITests */,
 				40D0EAF02E2E81D100D87F2D /* Products */,
@@ -146,8 +146,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				40D0EAF12E2E81D100D87F2D /* OptimizationExample */,
 				40D0EB492E2E87DA00D87F2D /* Packages */,
+				40FBAF962E2FAF1000C03EBA /* OptimizationExample */,
 			);
 			name = OptimizationExample;
 			packageProductDependencies = (
